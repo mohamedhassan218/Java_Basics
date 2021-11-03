@@ -37,7 +37,7 @@ public class Sheet1_G2 {
 //*******************************************************************
 		
 		//333
-		Scanner input = new Scanner(System.in);
+		/*Scanner input = new Scanner(System.in);
 		double number1 ;
 		double number2 ;
 		System.out.println("Hi, What is the sum of this two integers ?!");
@@ -56,23 +56,24 @@ public class Sheet1_G2 {
 		else
 		{
 			System.out.println("Not correct!");
-		}
+		}*/
 		
 		
 		
 //*********************************************************************
 		
 		//4444
-		/*boolean ch1 ;
-		boolean ch2 ;
-		System.out.println("Please enter A then B to show you the truth table of them!");
-		Scanner input = new Scanner(System.in);
-		ch1 = input.nextBoolean();
-		ch2 = input.nextBoolean();
+		/*boolean[] arr = {false , true} ;	
+		for (int i =0; i < 2; i++)
+		{
+		    for (int j =0; j < 2; j++)
+		    {
+		        System.out.println(arr[i] + " And " + arr[j] + " ---> " +  (arr[i] & arr[j])); 
+		        System.out.println(arr[i] + " Or " + arr[j] + " ---> " +  (arr[i] | arr[j]));
+		        System.out.println(arr[i] + " Xor " + arr[j] + " ---> " +  (arr[i] ^ arr[j]));
+		    }
+		}*/
 		
-		System.out.println("A and B is: " + (ch1 & ch2));
-		System.out.println("A or B is: " + (ch1 | ch2));
-		System.out.println("A xor B is: " + (ch1 ^ ch2));*/
 		
 //*********************************************************************
 		
