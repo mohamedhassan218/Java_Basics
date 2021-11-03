@@ -9,7 +9,7 @@ public class Sheet1_G2 {
 		Scanner input = new Scanner(System.in);
 		System.out.println("Please enter your name!");
 		Name = input.nextLine() ;
-		System.out.println("Hello " + Name ); */
+		System.out.println("Hello " + Name );*/
 //****************************************************************
 		
 		//22
@@ -87,6 +87,7 @@ public class Sheet1_G2 {
 	        System.out.println(ASCII);            //Automatic casting
 		    ASCII ++ ;
 		}*/
+		
 		
 		/*char C = 'A' ;
 		int ASCII = (int) C ;
