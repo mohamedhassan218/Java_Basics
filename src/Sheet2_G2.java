@@ -4,20 +4,8 @@ public class Sheet2_G2 {
 	public static void main(String[] args) {
 		
 //7777777777
-			/*String INPUT ;
-			int sum =0 ;
-			int product  = 1;
-			Scanner input = new Scanner(System.in);
-			System.out.println("Enter integers until you enter 'q' I'll show you the sum & product!") ;
-			INPUT = input.nextLine();
-			while (INPUT != 'q')
-			{
-			sum += INPUT ;
-			product *= INPUT ;
-			INPUT = input.nextLine();
-			}
-			System.out.println ("The sum " + sum);
-			System.out.println ("The product " + product);*/
+			/**/
+			
 
 //*************************************************************************
 //8888888888		
@@ -36,7 +24,23 @@ public class Sheet2_G2 {
             }*/
 //***********************************************************************
 //999999999999
-		
+		/*for (int i = 0; i < 6;i++)
+		{
+			if (i==1)
+			{
+				System.out.println(" * ");
+			}
+			if (i>3)
+			{
+				for (int u = 0; u<i;u++)
+				{
+					System.out.print(" * ");
+					System.out.println();
+				}
+			}
+			if (i)
+		}*/
+		System.out.println("Hello world");
 		
 		
 		

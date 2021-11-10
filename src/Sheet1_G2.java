@@ -13,26 +13,28 @@ public class Sheet1_G2 {
 //****************************************************************
 		
 		//22
-		/*int xCor ;
-		int yCor ;
-		System.out.println("Please enter the coordinates : ");
+		/*float xCoordinate ;
+		float yCoordinate ;
+		System.out.println("Hi user, follow the instructions bellow ");
+		System.out.println("Please enter X coordinate for the ball: ");
 		Scanner input = new Scanner(System.in);
-		xCor = input.nextInt();
-		yCor = input.nextInt();
-		if (xCor >= 2 && xCor <=45)
+		xCoordinate = input.nextInt();
+		System.out.println("Please enter Y coordinate for the ball: ");
+		yCoordinate = input.nextInt();
+		if (xCoordinate >= 2 && xCoordinate <=45)
 		{
-			if (yCor >= 25 && yCor <= 50)
+			if (yCoordinate >= 25 && yCoordinate <= 50)
 			{
-				System.out.println("The ball is above the line !");
+				System.out.println("The ball is above the line.");
 			}
 			else 
 			{
-				System.out.println("IS NOT ABOVE THE LINE @@@");
+				System.out.println("The ball isn't above the line!");
 			}
 		}
 		else 
 		{
-			System.out.println("IS NOT ABOVE THE LINE @@@");
+			System.out.println("The ball isn't above the line!");
 		}*/
 //*******************************************************************
 		
@@ -79,14 +81,16 @@ public class Sheet1_G2 {
 		
 		//55555
 		
-		/*char C ='A';
-		int ASCII =  C;
+		char C ='A';
+		int ASCII = (int) C;
 		for (int i =1 ; i <9 ;i++)
 		{
 			
-	        System.out.println(ASCII);            //Automatic casting
+	        System.out.print(ASCII + "\t");
+			System.out.println(C);            //Automatic casting
 		    ASCII ++ ;
-		}*/
+			C++;
+		}
 		
 		
 		/*char C = 'A' ;
