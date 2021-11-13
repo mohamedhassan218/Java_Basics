@@ -5,25 +5,30 @@ public class Q7
     {
 		String number ;
 		int sum =0, product =1;
+		boolean swi = true;
 		Scanner input = new Scanner(System.in);
 		System.out.println("Hi user, enter integers to continue or enter 'q' to quit!");
-		number = input.next();
+		number = input.nextLine();
+		
 		if (number == "q")
 		{
-			System.out.println("The sum is " + sum);
-			System.out.println("The product is " + product);
+			System.out.println("you ended it before entering at least one value!!!");
 		}
-		else
+
+	
+		while (swi)
 		{
 			while (number != "q")
 			{
-				sum += (int) number;
-				product *=  (int) number;
+			    sum += Integer.valueOf(number);
+			    product *=  Integer.valueOf(number);
+			    number = input.nextLine();
 			}
-			System.out.println("The sum is " + sum);
-			System.out.println("The product is " + product);
-
+			swi = false;
 		}
+		
+		System.out.println("The sum is " + sum);
+		System.out.println("The product is " + product);
 
 
     }
