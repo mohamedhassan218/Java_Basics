@@ -31,7 +31,25 @@ public class Q13
     }
 
     //c
-    
+    for (int M = 1; M < 5;M++)
+    {
+        if (M==1)
+        {
+            System.out.println("1010101");
+        }
+        if (M==2)
+        {
+            System.out.println(" 10101 ");
+        }
+        if (M==3)
+        {
+            System.out.println("  101  ");
+        }
+        if (M==4)
+        {
+            System.out.println("   1   ");
+        }
+    }
     
     
    }
