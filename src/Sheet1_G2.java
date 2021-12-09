@@ -81,7 +81,7 @@ public class Sheet1_G2 {
 		
 		//55555
 		
-		char C ='A';
+		/*char C ='A';
 		int ASCII = (int) C;
 		for (int i =1 ; i <9 ;i++)
 		{
@@ -90,6 +90,13 @@ public class Sheet1_G2 {
 			System.out.println(C);            //Automatic casting
 		    ASCII ++ ;
 			C++;
+		}*/
+
+
+		int[] myArray = {10,22};
+		for (int num : myArray)
+		{
+			System.out.println(num);
 		}
 		
 		
