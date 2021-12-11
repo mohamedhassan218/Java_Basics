@@ -44,7 +44,5 @@ public class Ch5 {
 	    }while(counter45<=10);
 		
 
-
-
     }
 }
