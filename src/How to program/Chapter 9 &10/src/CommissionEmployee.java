@@ -12,17 +12,17 @@ public class CommissionEmployee extends Object {
         //if gross sale is invalid throw exeption
         if (grossSales < 0.0)
         {
-            throw new IllegalArgumentExeption(
-                "Gross sales must be >= 0.0"
-            );
+            //throw new IllegalArgumentExeption(
+//                "Gross sales must be >= 0.0"
+//            );
         }
 
         //if commision rate is invalid throw exeption
         if (commissionRate <= 0.0 || commissionRate >= 1)
         {
-            throw new IllegalArgumentExeption(
-                "commission rate must be > 0.0 and < 1.0"
-            );
+            //throw new IllegalArgumentExeption(
+//                "commission rate must be > 0.0 and < 1.0"
+//            );
         }
 
         this.firstName = firstName;
@@ -57,9 +57,9 @@ public class CommissionEmployee extends Object {
     {
         if (grossSales < 0.0)
         {
-            throw new IllegalArgumentExeption(
-                "Gross sales must be >= 0.0"
-            );
+            //throw new IllegalArgumentExeption(
+              //  "Gross sales must be >= 0.0"
+            //);
         }
 
         this.grossSales = grossSales;
@@ -77,9 +77,9 @@ public class CommissionEmployee extends Object {
     {
         if (commissionRate  <= 0.0 || commissionRate >= 1.0)
         {
-            throw new IllegalArgumentExeption(
-                "Commission rate must be > 0.0 and < 1.0"
-            );
+//            throw new IllegalArgumentExeption(
+//                "Commission rate must be > 0.0 and < 1.0"
+//            );
         }
 
         this.commissionRate = commissionRate;
