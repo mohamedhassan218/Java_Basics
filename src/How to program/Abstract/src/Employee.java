@@ -31,7 +31,7 @@ public abstract class Employee
 	
 	
 	//return SSN
-	public String getsocialSecurityNumber()
+	public String getSocialSecurityNumber()
 	{
 		return socialSecurityNumber;
 	}
@@ -41,7 +41,7 @@ public abstract class Employee
 	//return String representation of Employee object
 	public String toString()
 	{
-		return String.format("%s %s%nsocial security number: %s", getFirstName(),getLastName(), getsocialSecurityNumber());
+		return String.format("%s %s%nsocial security number: %s", getFirstName(),getLastName(), getSocialSecurityNumber());
 	}
 	
 	

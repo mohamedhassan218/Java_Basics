@@ -10,7 +10,7 @@ public class CommissionEmployeeTest {
 
 
         //get commission employee data
-        Sysetm.out.println("Employee's information obtained by the get methods: ");
+        System.out.println("Employee's information obtained by the get methods: ");
         System.out.printf("%n%s %s%n" , "First name is:",employee.getFirstName());
         System.out.printf("%s %s%n" , "Last name is:",employee.getLastName());
         System.out.printf("%s %s%n" , "Social security number is:",employee.getSocialSecurityNumber());
