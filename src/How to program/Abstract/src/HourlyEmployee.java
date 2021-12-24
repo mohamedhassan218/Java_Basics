@@ -61,7 +61,7 @@ public class HourlyEmployee extends Employee
 	
 	//override abstract method earnings
 	@Override
-	public double earnings()
+	public double getPaymentAmount()
 	{
 		if (getHours() <= 40)
 		{
