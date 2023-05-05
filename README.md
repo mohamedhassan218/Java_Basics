@@ -1,2 +1,7 @@
 # Java_Basics
-The answers of the college's sheets and simple projects implemented in java 
+
+This repo contain the following:
+- Answers of the college's sheets.
+- Basics of Java.
+- Principles of Object-Oriented Programming.
+- Algorithms and Data Structures.
