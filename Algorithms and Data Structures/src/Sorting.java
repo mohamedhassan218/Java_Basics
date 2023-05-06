@@ -1,3 +1,5 @@
+import java.lang.Comparable;
+import java.util.Arrays;
 /*
  * Class sorting contain all sorting algorithms that I've learned coded in generic programming.
  * 
@@ -133,5 +135,7 @@ public class Sorting {
 		    }
 		  }
 		}
+	
+	
 }
 
